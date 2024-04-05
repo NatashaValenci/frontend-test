@@ -1,0 +1,82 @@
+.container {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  width: 100%;
+}
+
+.selecionar{
+  display: flex;
+  justify-content: flex-start;
+  align-items: last baseline;
+  font-size: 13px;
+}
+
+.selecionar-checkbox{
+  width: 30px;
+  margin-top: 5px;
+}
+
+.search{
+  width: 20%;
+  height: 400px;
+  margin: 20px; 
+  padding: 20px; 
+  border: 2px solid #ccc; 
+  border-radius: 8px; 
+}
+
+
+.list{
+  width: 80%;
+  height: 400px;
+  margin: 20px; 
+  padding: 20px; 
+  border: 2px solid #ccc; 
+  border-radius: 8px; 
+}
+
+.container-input{
+  max-width: 80%;
+}
+
+.input{
+  border-radius: 10px;
+  border: 2px solid #ccc; 
+  outline: none; 
+  height: 10px;
+  font-size: 12px;
+  position: relative;
+  padding-right: 25px;
+}
+
+input[type='text'] { 
+  background-image: url('./../../../public/research.png');
+  background-repeat: no-repeat;
+  background-position: 98%;
+  
+}
+
+.list{
+  width: 50%;
+}
+
+h1 {
+  font-size: 24px;
+  color: #ccc;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+
+th{
+  padding: 15px;
+  font-size: 12px;
+  height: 30px;
+  background-color: #ccc;
+  margin: 30px;
+}
